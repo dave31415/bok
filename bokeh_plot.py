@@ -40,7 +40,7 @@ def create_plot():
 
     TOOLS = "pan,box_zoom,reset,save,crosshair,hover"
 
-    p = figure(title="An Example", tools=TOOLS, plot_width=1100, plot_height=600)
+    p = figure(title="An Example", tools=TOOLS, plot_width=900, plot_height=500)
     p.circle(x, y, radius=.05, legend="sin(x)")
     p.line(x, y, legend="sin(x)")
 
